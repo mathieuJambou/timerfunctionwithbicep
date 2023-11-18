@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "UseDevelopmentStorage": "true",
+    "1234AzureWebJobsStorage1234": "DefaultEndpointsProtocol=https;AccountName=mjstoragefunctimer;EndpointSuffix=core.windows.net;AccountKey=icwBJT308Zidj/Sc7GfHsi3KgxU3z1h8lUbo2n+S+JGTfLbg4VitNtD9kRtP+VeuEEn9c+goHtRx+AStAgjNyw==",
+    "AzureWebJobsStorage__accountname": "mjstoragefunctimer",
+    "FUNCTIONS_WORKER_RUNTIME": "java"
+  }
+}

@@ -1,0 +1,5 @@
+az deployment sub  create --name 'functionTesting'  --template-file main.bicep --location westus
+
+mvn archetype:generate "-DarchetypeGroupId=com.microsoft.azure" "-DarchetypeArtifactId=azure-functions-archetype" "-DjavaVersion=11"
+
+mvn clean package azure-functions:deploy

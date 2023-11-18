@@ -1,0 +1,10 @@
+{
+  "scriptFile" : "../functimer-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.mj.Function.keepAlive",
+  "bindings" : [ {
+    "type" : "timerTrigger",
+    "direction" : "in",
+    "name" : "keepAliveTrigger",
+    "schedule" : "* * * * * *"
+  } ]
+}
